@@ -1,4 +1,4 @@
-# Launching a Django (PHP) Application with Docker
+# Launching a Django (Python) Application with Docker
 
 This guide explains how to set up and launch a Django (Python) application using Docker.
 

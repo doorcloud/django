@@ -15,8 +15,8 @@ else:
         "Make sure you import environment variables directly into the system"
     )
 
-    default_var_env_keys = ["BASE_DIR", "SECRET_KEY", "DEBUG", "ALLOWED_HOSTS", "INSTALLED_APPS", "MIDDLEWARE",
-                            "ROOT_URLCONF", "TEMPLATES", "DATABASES", "AUTH_PASSWORD_VALIDATORS", "LANGUAGE_CODE", "TIME_ZONE", "USE_I18N"]
+    default_var_env_keys = ["DJANGO_APP_SECRET_KEY", "DJANGO_APP_DEBUG", "DJANGO_APP_DB_NAME", "DJANGO_APP_DB_USER", "DJANGO_APP_DB_PASSWORD", "DJANGO_APP_DB_HOST",
+                            "DJANGO_APP_DB_PORT"]
 
     for var_env_key in default_var_env_keys:
         if not os.environ.get(var_env_key, None):
