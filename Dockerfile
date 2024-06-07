@@ -1,5 +1,5 @@
 # Use a Python image as a base
-FROM python:3.10-slim
+FROM python:3.10
 
 RUN apt-get update \
     && apt-get install -y \
