@@ -1,13 +1,12 @@
-# Launching a Django (Python) Application with Docker
+# Launching a [Django](https://www.djangoproject.com/) (Python) Application with Docker
 
-This guide explains how to set up and launch a Django (Python) application using Docker.
+This guide explains how to set up and launch a [Django](https://www.djangoproject.com/) (Python) application using Docker.
 
 ## Prerequisites
 
 Before starting, ensure you have the following tools installed on your machine:
 
 - [Docker](https://www.docker.com/products/docker-desktop)
-- [Django](https://www.djangoproject.com/)
 
 ## Dockerfile Content
 
