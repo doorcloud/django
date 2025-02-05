@@ -24,9 +24,9 @@ RUN pip install -r requirements.txt
 
 # Copy the rest of the application into the working directory
 COPY . .
-
+COPY .env.sample .env
 # Expose the port that the Nginx application will use
-EXPOSE 80
+EXPOSE 8080
 
 # Set the entrypoint
 RUN chmod +x entrypoint.sh
